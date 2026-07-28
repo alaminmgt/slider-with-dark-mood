@@ -31,6 +31,7 @@ const Slider = () => {
     useEffect(() => {
       startInterVal();
       return ()=> stopInterVal;
+      // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
     
   return (
