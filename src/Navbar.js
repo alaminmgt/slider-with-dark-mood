@@ -17,10 +17,10 @@ const Navbar = () => {
   return (
     <div>
       <ul>
-        <li><a href="">Home</a></li>
-        <li><a href="">About</a></li>
-        <li><a href="">Blog</a></li>
-        <li><a href="">Contact</a></li>
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Blog">Blog</a></li>
+        <li><a href="#Contact">Contact</a></li>
         <div onClick={handleChange}>{theme === "light-mood" ?
          <i class="fa-solid fa-moon"></i> : <i class="fa-solid fa-sun"></i>}
          </div>
